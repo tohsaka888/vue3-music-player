@@ -7,6 +7,10 @@
     @drag-end="onDragEnd"
     @change="onChange"
     @click="onDragEnd"
+    style="cursor:pointer;"
+    :dotOptions="{
+      style: { cursor: 'grab' }
+    }"
   />
 </template>
   
