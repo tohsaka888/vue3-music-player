@@ -8,7 +8,7 @@
     @canplay="onCanPlay"
     @pause="onPause"
   />
-  <MusicController />
+  <MusicController v-if="audioRef !== undefined" :audio-ref="audioRef" />
   <div>{{ currentMusic.duration }}</div>
 </template>
   
