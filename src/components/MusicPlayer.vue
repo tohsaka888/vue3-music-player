@@ -9,7 +9,6 @@
     @pause="onPause"
   />
   <MusicController v-if="audioRef !== undefined" :audio-ref="audioRef" />
-  <div>{{ currentMusic.duration }}</div>
 </template>
   
 <script setup lang='ts'>
