@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "moment": "^2.29.1",
+    "moment": "^2.29.4",
     "vue": "^3.2.25",
     "vue-slider-component": "^4.0.0-beta.4",
     "vuex": "^4.0.2"
